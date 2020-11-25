@@ -1,0 +1,235 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [:posenet] /Users/user/AndroidStudioProjects/Balance2/posenet/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0-alpha1] /Users/user/.gradle/caches/transforms-2/files-2.1/c48b1915c1726a056b9ae8ceea50a13c/constraintlayout-2.1.0-alpha1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/222e6848c3a72805600daf989273ba7b/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/a4d0f709eb0d69b2f993a092321b312b/appcompat-1.3.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/11ecca2959c14bd56f2eef66555dec39/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [nl.dionsegijn:konfetti:1.1.2] /Users/user/.gradle/caches/transforms-2/files-2.1/2c5693214251357b328e921e9ad148d6/konfetti-1.1.2/AndroidManifest.xml:2:1-13:12
+MERGED from [me.relex:circleindicator:2.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/30b846201441647734087dd120af0044/circleindicator-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/901718c7c74191075c18fde66eba77bf/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0-rc1] /Users/user/.gradle/caches/transforms-2/files-2.1/72565b1de6f36e7cb1eac5e8437be8df/tensorflow-lite-support-0.1.0-rc1/AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/e6a46e19ce3448f4611ae1383f74b206/tensorflow-lite-2.2.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/7e06cfef0f6332b81df31b017401c710/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.0-alpha08] /Users/user/.gradle/caches/transforms-2/files-2.1/8965f8b07eac4377a03e3e6322eb7358/fragment-1.3.0-alpha08/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.0-alpha08] /Users/user/.gradle/caches/transforms-2/files-2.1/56f1fcee3059eb71d470a4fcdc93a679/activity-1.2.0-alpha08/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/efbd150275aebfae8a44d3a9eedc6a1c/appcompat-resources-1.3.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/2a914b7245a8b3f805c91a1b5ce765fa/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/17b1abf4ee8ebea3b84d4fbb6a9e593b/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/ffa1cdb52d65a521d7ec3574fa06c12f/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/921789b970339027f4303ef976b16f73/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/def6bb205ee3207e43d6f2b4a8d99183/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/1030d3a126a0269d151db0960dd6c830/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/6d270f3c78e6d3a946f31646c186ce42/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/9eefc79b154899651550f98c049a75ac/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/6d37c64010130f58665c255a4ec93254/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/79204442bbda1392ff1c57a09cc8b31d/core-1.5.0-alpha02/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f514f6c8d74eca5941842458c5a879fa/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/b4e3fad9746b9ddddde01e13af59ef66/lifecycle-viewmodel-savedstate-2.3.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/user/.gradle/caches/transforms-2/files-2.1/ab5879f4de18589e26e830952db834ec/savedstate-1.1.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/08b096b99a68580f8eb5350e47332282/lifecycle-runtime-2.3.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/13cd3a1db089800aa5b6d1adbabf9778/lifecycle-viewmodel-2.3.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/be3ec58a2ee5604f6d1aaa491826b7b1/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3d995d7e555669cce75eb5080f4763e8/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3c793b83875b3d7cfb52556e20407530/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/a4913c619840096fa6c9be56cf7ec482/lifecycle-livedata-core-2.3.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/58140043b8da808ff3e3c6db59b19d7d/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/25f39401474222ef694b949c8d976c8a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/1e0c619578e9acf85b364b7a58bd6b37/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:5:3-63
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:5:20-60
+uses-feature#android.hardware.camera
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:9:3-58
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:9:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:10:3-68
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:10:17-65
+uses-sdk
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+MERGED from [:posenet] /Users/user/AndroidStudioProjects/Balance2/posenet/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:posenet] /Users/user/AndroidStudioProjects/Balance2/posenet/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0-alpha1] /Users/user/.gradle/caches/transforms-2/files-2.1/c48b1915c1726a056b9ae8ceea50a13c/constraintlayout-2.1.0-alpha1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0-alpha1] /Users/user/.gradle/caches/transforms-2/files-2.1/c48b1915c1726a056b9ae8ceea50a13c/constraintlayout-2.1.0-alpha1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/222e6848c3a72805600daf989273ba7b/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/222e6848c3a72805600daf989273ba7b/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/a4d0f709eb0d69b2f993a092321b312b/appcompat-1.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/a4d0f709eb0d69b2f993a092321b312b/appcompat-1.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/11ecca2959c14bd56f2eef66555dec39/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/11ecca2959c14bd56f2eef66555dec39/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [nl.dionsegijn:konfetti:1.1.2] /Users/user/.gradle/caches/transforms-2/files-2.1/2c5693214251357b328e921e9ad148d6/konfetti-1.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [nl.dionsegijn:konfetti:1.1.2] /Users/user/.gradle/caches/transforms-2/files-2.1/2c5693214251357b328e921e9ad148d6/konfetti-1.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/30b846201441647734087dd120af0044/circleindicator-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/30b846201441647734087dd120af0044/circleindicator-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/901718c7c74191075c18fde66eba77bf/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/901718c7c74191075c18fde66eba77bf/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0-rc1] /Users/user/.gradle/caches/transforms-2/files-2.1/72565b1de6f36e7cb1eac5e8437be8df/tensorflow-lite-support-0.1.0-rc1/AndroidManifest.xml:4:5-44
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0-rc1] /Users/user/.gradle/caches/transforms-2/files-2.1/72565b1de6f36e7cb1eac5e8437be8df/tensorflow-lite-support-0.1.0-rc1/AndroidManifest.xml:4:5-44
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/e6a46e19ce3448f4611ae1383f74b206/tensorflow-lite-2.2.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/e6a46e19ce3448f4611ae1383f74b206/tensorflow-lite-2.2.0/AndroidManifest.xml:7:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/7e06cfef0f6332b81df31b017401c710/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/7e06cfef0f6332b81df31b017401c710/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha08] /Users/user/.gradle/caches/transforms-2/files-2.1/8965f8b07eac4377a03e3e6322eb7358/fragment-1.3.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha08] /Users/user/.gradle/caches/transforms-2/files-2.1/8965f8b07eac4377a03e3e6322eb7358/fragment-1.3.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha08] /Users/user/.gradle/caches/transforms-2/files-2.1/56f1fcee3059eb71d470a4fcdc93a679/activity-1.2.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha08] /Users/user/.gradle/caches/transforms-2/files-2.1/56f1fcee3059eb71d470a4fcdc93a679/activity-1.2.0-alpha08/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/efbd150275aebfae8a44d3a9eedc6a1c/appcompat-resources-1.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/efbd150275aebfae8a44d3a9eedc6a1c/appcompat-resources-1.3.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/2a914b7245a8b3f805c91a1b5ce765fa/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/2a914b7245a8b3f805c91a1b5ce765fa/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/17b1abf4ee8ebea3b84d4fbb6a9e593b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/17b1abf4ee8ebea3b84d4fbb6a9e593b/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/ffa1cdb52d65a521d7ec3574fa06c12f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/ffa1cdb52d65a521d7ec3574fa06c12f/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/921789b970339027f4303ef976b16f73/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/921789b970339027f4303ef976b16f73/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/def6bb205ee3207e43d6f2b4a8d99183/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/def6bb205ee3207e43d6f2b4a8d99183/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/1030d3a126a0269d151db0960dd6c830/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/1030d3a126a0269d151db0960dd6c830/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/6d270f3c78e6d3a946f31646c186ce42/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/6d270f3c78e6d3a946f31646c186ce42/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/9eefc79b154899651550f98c049a75ac/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/9eefc79b154899651550f98c049a75ac/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/6d37c64010130f58665c255a4ec93254/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/6d37c64010130f58665c255a4ec93254/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/79204442bbda1392ff1c57a09cc8b31d/core-1.5.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/79204442bbda1392ff1c57a09cc8b31d/core-1.5.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f514f6c8d74eca5941842458c5a879fa/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f514f6c8d74eca5941842458c5a879fa/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/b4e3fad9746b9ddddde01e13af59ef66/lifecycle-viewmodel-savedstate-2.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/b4e3fad9746b9ddddde01e13af59ef66/lifecycle-viewmodel-savedstate-2.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/user/.gradle/caches/transforms-2/files-2.1/ab5879f4de18589e26e830952db834ec/savedstate-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/user/.gradle/caches/transforms-2/files-2.1/ab5879f4de18589e26e830952db834ec/savedstate-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/08b096b99a68580f8eb5350e47332282/lifecycle-runtime-2.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/08b096b99a68580f8eb5350e47332282/lifecycle-runtime-2.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/13cd3a1db089800aa5b6d1adbabf9778/lifecycle-viewmodel-2.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/13cd3a1db089800aa5b6d1adbabf9778/lifecycle-viewmodel-2.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/be3ec58a2ee5604f6d1aaa491826b7b1/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/be3ec58a2ee5604f6d1aaa491826b7b1/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3d995d7e555669cce75eb5080f4763e8/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3d995d7e555669cce75eb5080f4763e8/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3c793b83875b3d7cfb52556e20407530/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3c793b83875b3d7cfb52556e20407530/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/a4913c619840096fa6c9be56cf7ec482/lifecycle-livedata-core-2.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha07] /Users/user/.gradle/caches/transforms-2/files-2.1/a4913c619840096fa6c9be56cf7ec482/lifecycle-livedata-core-2.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/58140043b8da808ff3e3c6db59b19d7d/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/58140043b8da808ff3e3c6db59b19d7d/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/25f39401474222ef694b949c8d976c8a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/25f39401474222ef694b949c8d976c8a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/1e0c619578e9acf85b364b7a58bd6b37/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/1e0c619578e9acf85b364b7a58bd6b37/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+	android:targetSdkVersion
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+		MERGED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+		MERGED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:12:3-15
+		INJECTED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:14:3-39:17
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0-alpha1] /Users/user/.gradle/caches/transforms-2/files-2.1/c48b1915c1726a056b9ae8ceea50a13c/constraintlayout-2.1.0-alpha1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0-alpha1] /Users/user/.gradle/caches/transforms-2/files-2.1/c48b1915c1726a056b9ae8ceea50a13c/constraintlayout-2.1.0-alpha1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/222e6848c3a72805600daf989273ba7b/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/222e6848c3a72805600daf989273ba7b/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [nl.dionsegijn:konfetti:1.1.2] /Users/user/.gradle/caches/transforms-2/files-2.1/2c5693214251357b328e921e9ad148d6/konfetti-1.1.2/AndroidManifest.xml:11:5-53
+MERGED from [nl.dionsegijn:konfetti:1.1.2] /Users/user/.gradle/caches/transforms-2/files-2.1/2c5693214251357b328e921e9ad148d6/konfetti-1.1.2/AndroidManifest.xml:11:5-53
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/901718c7c74191075c18fde66eba77bf/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/901718c7c74191075c18fde66eba77bf/tensorflow-lite-gpu-2.2.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/e6a46e19ce3448f4611ae1383f74b206/tensorflow-lite-2.2.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/e6a46e19ce3448f4611ae1383f74b206/tensorflow-lite-2.2.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/79204442bbda1392ff1c57a09cc8b31d/core-1.5.0-alpha02/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/79204442bbda1392ff1c57a09cc8b31d/core-1.5.0-alpha02/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3d995d7e555669cce75eb5080f4763e8/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/3d995d7e555669cce75eb5080f4763e8/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0-alpha02] /Users/user/.gradle/caches/transforms-2/files-2.1/79204442bbda1392ff1c57a09cc8b31d/core-1.5.0-alpha02/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:19:7-33
+	android:label
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:17:7-39
+	android:roundIcon
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:18:7-52
+	android:icon
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:16:7-41
+	android:allowBackup
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:15:7-33
+	android:theme
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:20:7-38
+activity#org.tensorflow.lite.examples.posenet.TestActivity
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:22:5-26:16
+	android:label
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:24:9-48
+	android:exported
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:25:9-32
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:23:9-37
+activity#org.tensorflow.lite.examples.posenet.StartingActivity
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:27:5-49
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:27:15-47
+activity#org.tensorflow.lite.examples.posenet.LaunchActivity
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:28:5-48
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:28:15-45
+activity#org.tensorflow.lite.examples.posenet.MainActivity
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:29:5-34:16
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:29:15-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:30:7-33:23
+action#android.intent.action.MAIN
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:31:9-61
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:31:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:32:9-69
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:32:19-66
+activity#org.tensorflow.lite.examples.posenet.TutorialActivity
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:35:5-50
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:35:15-47
+activity#org.tensorflow.lite.examples.posenet.CameraActivity
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:36:5-71
+	android:exported
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:36:46-69
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:36:15-45
+activity#org.tensorflow.lite.examples.posenet.Camera2Activity
+ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:37:5-82
+	android:exported
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:37:47-70
+	android:name
+		ADDED from /Users/user/AndroidStudioProjects/Balance2/app/src/main/AndroidManifest.xml:37:15-46
