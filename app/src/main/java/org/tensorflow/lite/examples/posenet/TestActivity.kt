@@ -25,10 +25,17 @@ import android.os.Bundle
 import androidx.core.content.res.ResourcesCompat
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.ImageView
+import android.util.Log
+import org.tensorflow.lite.examples.posenet.lib.BodyPart
+import org.tensorflow.lite.examples.posenet.lib.Position
+import org.tensorflow.lite.examples.posenet.lib.KeyPoint
+import org.tensorflow.lite.examples.posenet.lib.Person
 import org.tensorflow.lite.examples.posenet.lib.Posenet as Posenet
+private const val TAG = "TestActivity"
 
 class TestActivity : AppCompatActivity() {
   /** Returns a resized bitmap of the drawable image.    */
+
   private fun drawableToBitmap(drawable: Drawable): Bitmap {
     val bitmap = Bitmap.createBitmap(257, 257, Bitmap.Config.ARGB_8888)
     val canvas = Canvas(bitmap)
@@ -51,6 +58,7 @@ class TestActivity : AppCompatActivity() {
     val posenet = Posenet(this.applicationContext)
     val person = posenet.estimateSinglePose(imageBitmap)
 
+
     // Draw the keypoints over the image.
     val paint = Paint()
     paint.color = Color.RED
@@ -58,13 +66,17 @@ class TestActivity : AppCompatActivity() {
 
     val mutableBitmap = imageBitmap.copy(Bitmap.Config.ARGB_8888, true)
     val canvas = Canvas(mutableBitmap)
+
     for (keypoint in person.keyPoints) {
       canvas.drawCircle(
         keypoint.position.x.toFloat(),
         keypoint.position.y.toFloat(), size, paint
       )
     }
+
+
     sampleImageView.adjustViewBounds = true
     sampleImageView.setImageBitmap(mutableBitmap)
   }
+
 }

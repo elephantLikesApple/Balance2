@@ -16,6 +16,7 @@
 
 package org.tensorflow.lite.examples.posenet
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
@@ -27,5 +28,9 @@ class Camera2Activity : AppCompatActivity() {
     savedInstanceState ?: supportFragmentManager.beginTransaction()
       .replace(R.id.container, PosenetActivity())
       .commit()
+
+//    val nextIntent = Intent(this, TestActivity::class.java)
+//    startActivity(nextIntent)
+
   }
 }
