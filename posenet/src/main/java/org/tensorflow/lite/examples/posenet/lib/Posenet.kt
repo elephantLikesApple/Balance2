@@ -59,36 +59,9 @@ class KeyPoint {
   var score: Float = 0.0f
 }
 
-//class REPoint {
-//  var REPart: BodyPart = BodyPart.RIGHT_EYE
-//  var position: Position = Position()
-//  var score: Float = 0.0f
-//}
-//
-//class LEPoint {
-//  var LEPart: BodyPart = BodyPart.LEFT_EYE
-//  var position: Position = Position()
-//  var score: Float = 0.0f
-//}
-//
-//class RSPoint {
-//  var rsPart: BodyPart = BodyPart.RIGHT_SHOULDER
-//  var position: Position = Position()
-//  var score: Float = 0.0f
-//}
-//
-//class LSPoint {
-//  var lsPart: BodyPart = BodyPart.LEFT_SHOULDER
-//  var position: Position = Position()
-//  var score: Float = 0.0f
-//}
 
 class Person {
   var keyPoints = listOf<KeyPoint>()
-//  var RS = listOf<RSPoint>()
-//  var LS = listOf<LSPoint>()
-//  var RE = listOf<REPoint>()
-//  var LE = listOf<LEPoint>()
   var score: Float = 0.0f
 }
 
@@ -309,32 +282,9 @@ class Posenet(
       }
     }
 
-//    // 오른쪽 어깨 만들기
-//    val RSList = Array(numKeypoints) { RSPoint() }
-//    var totalScore2 = 0.0f
-//    enumValues<BodyPart>().forEachIndexed { idx, it ->
-//      RSList[idx].rsPart = it
-//      RSList[idx].position.x = xCoords[idx]
-//      RSList[idx].position.y = yCoords[idx]
-//      RSList[idx].score = confidenceScores[idx]
-//      totalScore2 += confidenceScores[idx]
-//    }
-//
-//    // 왼쪽 어깨 만들기
-//    val LSList = Array(numKeypoints) { LSPoint() }
-//    var totalScore3 = 0.0f
-//    enumValues<BodyPart>().forEachIndexed { idx, it ->
-//      LSList[idx].lsPart = it
-//      LSList[idx].position.x = xCoords[idx]
-//      LSList[idx].position.y = yCoords[idx]
-//      LSList[idx].score = confidenceScores[idx]
-//      totalScore3 += confidenceScores[idx]
-//    }
 
 
     person.keyPoints = keypointList.toList()
-//    person.LS = LSList.toList()
-//    person.RS = RSList.toList()
     person.score = totalScore / numKeypoints
 
 
